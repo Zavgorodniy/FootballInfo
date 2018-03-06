@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_team_parent_layout"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/fab_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:layout_height="@dimen/league_table_item_height"
+    android:orientation="vertical"
+    android:layout_marginBottom="1dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_height="@dimen/league_item_height"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorTextDark"
+        android:gravity="center"
+        android:textSize="@dimen/text_main"
+        tools:text="Campeonato Brasileiro da Série A" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/league_score_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gp_title"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="GP" />
+        <TextView
+            android:id="@+id/w_title"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="W" />
+        <TextView
+            android:id="@+id/d_title"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="D" />
+        <TextView
+            android:id="@+id/l_title"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="L" />
+        <TextView
+            android:id="@+id/f_title"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="F" />
+        <TextView
+            android:id="@+id/a_title"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="A" />
+
+        <TextView
+            android:id="@+id/gd_title"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="GD" />
+
+        <TextView
+            android:id="@+id/pts_title"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="Pts" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/league_score_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gp_content"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/w_content"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/d_content"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/l_content"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/f_content"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/a_content"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/gd_content"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/pts_content"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorTextDark"
+            android:gravity="center"
+            android:textSize="@dimen/text_main"
+            android:text="-" />
+
+    </LinearLayout>
+
+</LinearLayout>
